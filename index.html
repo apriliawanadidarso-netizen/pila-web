@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pila</title>
+<style>
+  :root {
+    --bg: #faf8f5;
+    --surface: #ffffff;
+    --ink: #221f1a;
+    --muted: #6b6459;
+    --accent: #b15b3f;
+    --border: #e6e0d6;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16140f;
+      --surface: #1d1a15;
+      --ink: #f0ece3;
+      --muted: #a89e8c;
+      --accent: #d97a5a;
+      --border: #2e2a22;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 16px;
+  }
+  main {
+    width: 100%;
+    max-width: 480px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 40px 32px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  p {
+    color: var(--muted);
+    line-height: 1.6;
+    margin: 0 0 24px;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  a:hover { text-decoration: underline; }
+  .footer {
+    margin-top: 24px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <main>
+    <h1>Pila</h1>
+    <p>Halaman ini menaungi alat-alat pribadi milik Aprilia Wanadi Darso (Pila) — termasuk integrasi Gmail &amp; Kalender yang dipakai untuk otomasi Hotel Scandalous.</p>
+    <p><a href="/privacy/">Kebijakan Privasi</a></p>
+    <div class="footer">pilapilun.my.id</div>
+  </main>
+</body>
+</html>
